@@ -1,6 +1,6 @@
 // Armazenando as informações da pessoa
 let nome = "Nicolas Hoffmann";
-let idade = 18
+let idade = 18;
 let cidade = "Nova Santa Rita";
 
 // Exibindo as informações no terminal
