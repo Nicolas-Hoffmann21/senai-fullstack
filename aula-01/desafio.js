@@ -1,7 +1,7 @@
 // 1. Armazenar os dados da pessoa
 const nome = "Nicolas";
 const peso = 75.0; // em quilogramas
-const altura = 1.81; // em metros
+const altura = 1.81 ; // em metros
 
 // 2. Calcular o IMC usando a fórmula indicada
 const imc = peso / (altura * altura);
