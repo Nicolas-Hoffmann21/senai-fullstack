@@ -1,4 +1,4 @@
-*Fixação*
+# *Fixação*
 
 ## 1. Qual parte da prática usou arrays?
 Resposta: Os arrays foram usados logo no início do código para criar os bancos de dados da turma. Foram criados três arrays estruturados: alunos (para armazenar os textos com os nomes dos estudantes), notas (para os valores numéricos decimais de desempenho) e frequencias (para os números inteiros representando a presença).
