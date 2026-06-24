@@ -1,16 +1,16 @@
-// 1. Criar os arrays com nomes claros
+//Criar os arrays com nomes claros
 let alunos = ["Aline", "Bryan", "Carlos", "Julia", "Luccas"];
 let notas = [8.5, 5.0, 7.0, 9.5, 4.0];
 let frequencias = [80, 65, 90, 95, 55]; // % de frequência
 
-// 3. Variável acumuladora para a média geral da turma
+//Variável acumuladora para a média geral da turma
 let somaNotas = 0;
 for (let i = 0; i < notas.length; i++) {
     somaNotas += notas[i];
 }
 let mediaNotas = somaNotas / notas.length;
 
-// 5. Criar um menu com switch
+// Criar um menu com switch
 // Altere o valor desta variável (1, 2, 3 ou 4) para testar as opções do menu
 let opcao = 3; 
 
@@ -18,7 +18,7 @@ console.log(`--- MENU DE INFORMAÇÕES (Opção selecionada: ${opcao}) ---`);
 
 switch (opcao) {
     case 1:
-        // 2. Listar todos os alunos (com a posição na lista)
+        // Listar todos os alunos (com a posição na lista)
         console.log("\n--- LISTA DE ALUNOS ---");
         for (let i = 0; i < alunos.length; i++) {
             // Mostra a posição (i + 1 para não começar do zero na exibição humana)
@@ -27,13 +27,13 @@ switch (opcao) {
         break;
 
     case 2:
-        // 3. Mostrar média geral
+        // Mostrar média geral
         console.log("\n--- MÉDIA GERAL DA TURMA ---");
         console.log(`A média das notas da turma é: ${mediaNotas.toFixed(2)}`);
         break;
 
     case 3:
-        // 4. Classificar situação dos alunos (com as novas regras)
+        // Classificar situação dos alunos (com as novas regras)
         console.log("\n--- SITUAÇÃO DOS ALUNOS ---");
         for (let i = 0; i < alunos.length; i++) {
             let status = "";
