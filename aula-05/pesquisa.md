@@ -1,4 +1,4 @@
-*Pesquisa*
+# *Pesquisa*
 ## 1. O que é um array em programação?
 Resposta:Um array (também conhecido como arranjo, vetor ou matriz unidimensional) é uma estrutura de dados que permite armazenar uma coleção ordenada de elementos em uma única variável. Em vez de salvar apenas um dado (como um número ou um texto), um array pode guardar vários dados do mesmo tipo (ou de tipos diferentes, dependendo da linguagem) organizados em uma sequência.
 
