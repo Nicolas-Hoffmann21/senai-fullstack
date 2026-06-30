@@ -6,3 +6,4 @@ function calcularMedia(numeros : number[]): number {
 const numeros = [9, 5];
 const media = calcularMedia(numeros);
 console.log(`A média dos números é: ${media}`);
+#teste
